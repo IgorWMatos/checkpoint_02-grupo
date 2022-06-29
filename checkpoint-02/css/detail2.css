@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Karla&family=Roboto&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+header .offer {
+    height: 40px;
+    padding: 8px 15px;
+    background-color: #1CD1B0;
+}
+
+header .banner {
+    height: 70px;
+    padding: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #00669F;
+    gap: 20px;
+}
+
+header .banner h1 {
+    color: white;
+    font-size: 60px;
+}
+
+main {
+    position: absolute;
+    left: 35%;
+    top: 30%;
+}
+
+section.card-info {
+    position: relative;
+    width: 546px;
+    height: 456px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 45px;
+
+}
+
+img.favorite {
+    position: absolute;
+    align-self: flex-start;
+    top: 5px;
+    left: 5px;
+    margin: 10px;
+    width: 30px;
+    cursor: pointer;
+}
+
+img.card-icon {
+    position: absolute;
+    top: -80px;
+    width: 159px;
+    height: 159px;
+    border-radius: 50%;
+}
+
+.card-info span {
+    margin: 20px;
+    text-align: center;
+}
+
+.card-info button {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 87px;
+    width: 546px;
+    color: #fff;
+    font-size: 20px;
+    background-color: #2C0187;
+    border: none;
+    border-radius: 0 0 45px 45px;
+    cursor: pointer;
+}
+
+button:active {
+    background-color: #4700e0;
+}
+
+body {
+    background-image: url(https://www.figma.com/file/VkTG9KdHABiy7DOwkXmkMa/image/0912c7682d7ba7d6fd90359157661c84fdf828f4?fuid=1108553447242840857);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+    height: 60px;
+    background-color: #00669F;
+    width: 100vw;
+}
+
+footer h1 {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}

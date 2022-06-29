@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Karla&family=Roboto&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+header .offer {
+    height: 30px;
+    padding: 3px 15px;
+    font-size: 15px;
+    background-color: #1CD1B0;
+}
+
+header .banner {
+    height: 70px;
+    padding: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #00669F;
+    gap: 20px;
+}
+
+header .banner img {
+    width: 40px;
+}
+
+header .banner h1 {
+    color: white;
+    font-size: 30px;
+}
+
+header .menu ul {
+    height: 40px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 15px;
+    padding: 0 30px;
+    background-color: #001D2D;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+header .menu li {
+    list-style: none;
+}
+
+header .menu a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    text-decoration: none
+}
+
+main {
+    position: absolute;
+    left: 22.5%;
+    top: 23%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: center;
+}
+
+img.favorite {
+    position: absolute;
+    align-self: flex-start;
+    top: 0px;
+    margin: 10px;
+    width: 30px;
+    cursor: pointer;
+}
+
+.card1 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F3F3F3;
+    width: 300px;
+    margin: 20px 20px;
+    border-radius: 16px 16px 0 0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.card-bg {
+    width: 300px;
+    height: 193px;
+    border-radius: 16px 16px 0 0;
+}
+
+.bat-icon {
+    position: absolute;
+    top: 125px;
+    width: 125px;
+    border-radius: 50%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.card1 h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    padding: 70px 0 10px 0px;
+}
+
+.card1 p {
+    padding: 0 15px 20px;
+    text-align: center;
+}
+
+.card1 button {
+    width: 170px;
+    height: 40px;
+    margin: 0 20px 20px;
+    border: none;
+    font-family: 'Robto', sans-serif;
+    font-size: 15px;
+    color: #F3F3F3;
+    background-color: #00669F;
+    cursor: pointer;
+}
+
+.card2 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F3F3F3;
+    width: 300px;
+    margin: 20px 20px;
+    border-radius: 16px 16px 0 0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.card2 h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    padding: 70px 0 10px 0px;
+}
+
+.card2 p {
+    padding: 0 15px 20px;
+    text-align: center;
+}
+
+
+.card2 button {
+    width: 170px;
+    height: 40px;
+    margin: 0 20px 20px;
+    border: none;
+    font-family: 'Robto', sans-serif;
+    font-size: 15px;
+    color: #F3F3F3;
+    background-color: #00669F;
+    cursor: pointer;
+}
+
+.card3 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F3F3F3;
+    width: 300px;
+    margin: 20px 20px;
+    border-radius: 16px 16px 0 0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.joker-icon {
+    position: absolute;
+    top: 125px;
+    width: 125px;
+    height: 125px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.card3 h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    padding: 70px 0 10px 0px;
+}
+
+.card3 p {
+    padding: 0 15px 20px;
+    text-align: center;
+}
+
+.card3 button {
+    width: 170px;
+    height: 40px;
+    margin: 0 20px 20px;
+    border: none;
+    font-family: 'Robto', sans-serif;
+    font-size: 15px;
+    color: #F3F3F3;
+    background-color: #00669F;
+    cursor: pointer;
+}
+
+.plus-info {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.plus-info button {
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+circle:active {
+    fill: #001D2D;
+}
+
+footer {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+    height: 60px;
+    background-color: #00669F;
+    width: 100vw;
+}
+
+footer h1 {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}

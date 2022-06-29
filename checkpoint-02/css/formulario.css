@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Karla&family=Roboto&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+header .offer {
+    height: 30px;
+    padding: 3px 15px;
+    font-size: 15px;
+    background-color: #1CD1B0;
+}
+
+header .banner {
+    height: 70px;
+    padding: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #00669F;
+    gap: 20px;
+}
+
+header .banner img {
+    width: 40px;
+}
+
+header .banner h1 {
+    color: white;
+    font-size: 30px;
+}
+
+header .menu ul {
+    height: 40px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 15px;
+    padding: 0 30px;
+    background-color: #001D2D;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+header .menu li {
+    list-style: none;
+}
+
+header .menu a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    text-decoration: none
+}
+
+main {
+    position: absolute;
+    display: flex;
+    width: 953px;
+    height: 700px;
+    background-color: #00669F;
+    border-radius: 49px;
+    padding: 20px;
+    left: 25%;
+    top: 16.5%;
+}
+
+body.section1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section1 h1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.section1 p {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.section1 form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.first-div {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+
+.first-div label {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.label-input1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.first-div input {
+    width: 343px;
+    height: 50px;
+    border-radius: 15px;
+    padding-left: 20px;
+    border: none;
+}
+
+.first-div input:focus {
+    background-color: rgba(150, 149, 149, 0.733);
+}
+
+.first-div select {
+    width: 343px;
+    height: 50px;
+    background-color: #fff;
+    padding-left: 20px;
+    border-radius: 15px;
+    border: none;
+}
+
+.first-div select:focus {
+    background-color: rgba(150, 149, 149, 0.733);
+}
+
+input[type="file"] {
+    display: none;
+}
+
+label.img-heroi {
+    width: 343px;
+    height: 50px;
+    border-radius: 15px;
+    margin-left: 2px;
+    margin-top: 24px;
+    padding: 12px 0;
+    text-align: center;
+    color: #808080;
+    background-color: #cecece;
+    cursor: pointer;
+}
+
+.img-heroi:active {
+    color: #fff;
+    background-color: #000000;
+}
+
+div.second-block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 30px 0;
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+    gap: 100px;
+}
+
+textarea {
+    margin-right: 35px;
+    width: 343px;
+    padding: 15px;
+    border-radius: 15px;
+    border: none;
+}
+
+span {
+    opacity: 0.3;
+}
+
+.section1 button {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    height: 88px;
+    width: 466px;
+    font-size: 40px;
+    font-weight: 700;
+    color: #000000;
+    background-color: #1cd1b0;
+    border: none;
+    border-radius: 23px;
+    cursor: pointer;
+}
+
+.section1 button:active {
+    color: #fff;
+    background-color: #001D2D;
+}
+
+div.l1 {
+    display: flex;
+    flex-direction: row;
+}
+
+
+div.poderes {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.poderes p.type {
+    margin-top: 15px;
+    border-top: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.l1 {
+    padding: 2px 0;
+    gap: 10px;
+    border: none;
+}
+
+footer {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+    height: 60px;
+    background-color: #00669F;
+    width: 100vw;
+}
+
+footer h1 {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}

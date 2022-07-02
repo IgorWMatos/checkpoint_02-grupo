@@ -7,56 +7,48 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-}
-
-header .offer {
-    height: 30px;
-    padding: 3px 15px;
-    font-size: 15px;
-    background-color: #1CD1B0;
-}
-
-header .banner {
-    height: 70px;
-    padding: 25px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    background-color: #00669F;
-    gap: 20px;
-}
-
-header .banner img {
-    width: 40px;
-}
-
-header .banner h1 {
-    color: white;
-    font-size: 30px;
-}
-
-header .menu ul {
-    height: 40px;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    gap: 15px;
-    padding: 0 30px;
-    background-color: #001D2D;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-
-}
-
-header .menu li {
     list-style: none;
 }
 
-header .menu a {
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    color: #fff;
-    text-decoration: none
+header {
+    position: sticky;
+    top: 0%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    background-color: #000;
+    z-index: 2;
+}
+
+header img {
+    width: 60px;
+}
+
+header .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .nav {
+    display: flex;
+    align-items: center;
+}
+
+header ul {
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+    gap: 15px;
+}
+
+header a {
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
 }
 
 main {
@@ -239,19 +231,41 @@ div.poderes {
 }
 
 footer {
-    position: absolute;
+    height: 100%;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    bottom: 0;
-    height: 60px;
-    background-color: #00669F;
-    width: 100vw;
+    flex-direction: column;
+    font-size: 12px;
+    color: #fff;
+    padding: 15px 60px;
+    background-color: #000;
 }
 
-footer h1 {
-    color: #fff;
-    font-size: 16px;
+footer .credits {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+footer .name h2 {
+    font-size: 14px;
     font-weight: 400;
-    font-family: 'Roboto', sans-serif;
+}
+
+footer .name img {
+    width: 60px;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+footer #igor {
+    text-align: center;
+}
+
+footer #giovanna {
+    text-align: end;
+}
+
+footer .info {
+    display: flex;
+    justify-content: center;
 }

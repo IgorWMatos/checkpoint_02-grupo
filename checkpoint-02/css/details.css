@@ -14,9 +14,12 @@
     object-fit: cover;
 }
 .body2 {
-    background-image: url("ttps://s3-alpha-sig.figma.com/img/0912/c768/2d7ba7d6fd90359157661c84fdf828f4?Expires=1656892800&Signature=VFdJ2FERPru4B1Eqgu6aYndakoj39qBy30uJyDyMU0~7SnAQfCGEnw7WEZVKsZmappkQ8NlPXiTI0GbBOpQFxfUscNzAR4IQRMBSheexjwSF74fKgYoTxOR6XIoHfkfIW1miaUTRbBMtpS0R15EmYGtjaoC4uCylTBR5WdS~f2eybf9gclTKOeelPwimJWCI4FwhpEJE8Dm6q73ppQC7zAHcBDdb8D0BDzqUMCescOkRBDkSmUk5OGEWSK7Io61tWJF8f6PgCxnERDptoMObX-RbMK08d8~gUe1n~JeJFfr09nsVggwhFb4EdMdUDmcDKNNuBKnKw-k6wFN-mKMsNw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
+    background-image: url("http://jucirqueira.com/wp-content/uploads/2016/05/06.jpg");
     object-fit: cover;
+    background-size: cover;
+    background-position: center;
 }
+
 .body3 {
     background-image: url("https://steamcdn-a.akamaihd.net/steamcommunity/public/images/items/200260/45ad5cbb50a2fa014030de72f855036d746c0e0e.jpg");
     object-fit: cover;
@@ -104,16 +107,6 @@ main {
     margin-top: 50px;
     margin-bottom: 20px;
 }
-/* 
-.favorite {
-    position: absolute;
-    align-self: flex-start;
-    top: 5px;
-    left: 5px;
-    margin: 10px;
-    width: 30px;
-    cursor: pointer;
-} */
 
 img.card-icon {
     position: absolute;
@@ -160,6 +153,7 @@ button:active {
 }
 .videos{
     margin-top: 100px;
+    margin-bottom: 100px;
 }
 .videos iframe{
     width: 100%;

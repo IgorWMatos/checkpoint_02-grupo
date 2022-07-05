@@ -67,12 +67,11 @@ body .register {
 }
 
 body .register h1 {
+    display: flex;
     font-size: 72px;
     font-weight: 700;
     font-family: 'Inter', sans-serif;
     color: #333333;
-    display: flex;
-    align-self: flex-start;
 }
 
 body .register form {

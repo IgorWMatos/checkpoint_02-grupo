@@ -122,10 +122,6 @@ main .banner {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/DC_Comics_logo.png/768px-DC_Comics_logo.png);
-    background-size: 25%;
-    background-repeat: no-repeat;
-    background-position: bottom right;
     background-color: #F3F3F3;
     margin: 20px 20px;
     border-radius: 16px 16px 0 0;
@@ -153,10 +149,6 @@ main .banner {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/DC_Comics_logo.png/768px-DC_Comics_logo.png);
-    background-size: 25%;
-    background-repeat: no-repeat;
-    background-position: bottom right;
     background-color: #F3F3F3;
     margin: 20px 20px;
     border-radius: 16px 16px 0 0;
@@ -184,10 +176,6 @@ main .banner {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/DC_Comics_logo.png/768px-DC_Comics_logo.png);
-    background-size: 25%;
-    background-repeat: no-repeat;
-    background-position: bottom right;
     background-color: #F3F3F3;
     margin: 20px 20px;
     border-radius: 16px 16px 0 0;
@@ -216,10 +204,6 @@ main .banner {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url(https://logodownload.org/wp-content/uploads/2017/05/marvel-logo-4.png);
-    background-size: 23%;
-    background-repeat: no-repeat;
-    background-position: bottom right;
     background-color: #F3F3F3;
     margin: 20px 20px;
     border-radius: 16px 16px 0 0;
@@ -247,10 +231,6 @@ main .banner {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url(https://logodownload.org/wp-content/uploads/2017/05/marvel-logo-4.png);
-    background-size: 23%;
-    background-repeat: no-repeat;
-    background-position: bottom right;
     background-color: #F3F3F3;
     margin: 20px 20px;
     border-radius: 16px 16px 0 0;
@@ -278,10 +258,6 @@ main .banner {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url(https://logodownload.org/wp-content/uploads/2017/05/marvel-logo-4.png);
-    background-size: 23%;
-    background-repeat: no-repeat;
-    background-position: bottom right;
     background-color: #F3F3F3;
     margin: 20px 20px;
     border-radius: 16px 16px 0 0;

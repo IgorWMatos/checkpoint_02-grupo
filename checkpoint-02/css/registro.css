@@ -66,12 +66,17 @@ body .register {
     gap: 10px;
 }
 
-body .register h1 {
+body .align {
     display: flex;
+    flex-direction: column;
+}
+
+body .register h1 {
     font-size: 72px;
     font-weight: 700;
     font-family: 'Inter', sans-serif;
     color: #333333;
+    padding: 10px;
 }
 
 body .register form {
@@ -96,16 +101,14 @@ body .register select {
     background-color: #fff;
 }
 
-body .register div {
-    display: inline-flex;
-    flex-direction: row;
+body .buttons {
+    display: flex;
     justify-content: center;
-    align-items: center;
-    gap: 15px;
+    gap: 10px;
 }
 
 body form button {
-    display: inline-flex;
+    display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;

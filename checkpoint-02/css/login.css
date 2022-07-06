@@ -51,12 +51,27 @@ header a {
     text-decoration: none;
 }
 
+main {
+    align-items: center;
+    justify-content: center;
+    background-image: url(../imgs/purple-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .login {
     height: 75.1vh;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     gap: 10px;
+}
+
+.align {
+    display: flex;
+    flex-direction: column;
 }
 
 .login h1 {
@@ -76,7 +91,7 @@ header a {
 }
 
 .login input {
-    width: 620px;
+    width: 420px;
     height: 60px;
     padding: 0 20px;
     font-size: 20px;
@@ -85,7 +100,7 @@ header a {
 }
 
 .login button {
-    width: 550px;
+    width: 250px;
     height: 60px;
     font-family: 'Karla', sans-serif;
     font-size: 24px;
@@ -96,9 +111,15 @@ header a {
     cursor: pointer;
 }
 
+.login button:hover {
+    background-color: #03967b;
+    border: 1px solid #000;
+}
+
 .login button:active {
     color: #fff;
     background-color: #000;
+    border: 2px solid #1CD1B0;
 }
 
 form p {
@@ -108,8 +129,7 @@ form p {
 }
 
 form a {
-    color: #3cadff;
-    text-decoration: none;
+    color: #4cb3fd;
 }
 
 footer {

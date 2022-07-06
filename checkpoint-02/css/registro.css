@@ -55,6 +55,12 @@ header a {
 body main {
     left: 35%;
     top: 30%;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../imgs/purple-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 body .register {
@@ -124,7 +130,8 @@ body form button {
 
 form button:active {
     color: #fff;
-    background-color: #002e49;
+    background-color: #000;
+    border: 2px solid #1CD1B0;
 }
 
 body button.limpar {
@@ -135,9 +142,9 @@ body button.limpar {
 
 form button.limpar:active {
     color: #fff;
-    background-color: #002e49;
+    background-color: #000;
+    border: 2px solid #1CD1B0;
 }
-
 
 footer {
     height: 100%;

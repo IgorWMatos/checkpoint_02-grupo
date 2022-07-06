@@ -51,6 +51,17 @@ header a {
     text-decoration: none;
 }
 
+body main {
+    left: 35%;
+    top: 30%;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../imgs/purple-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 body .contact {
     height: 75.1vh;
     display: flex;
@@ -89,6 +100,11 @@ textarea.fill {
     height: 251px;
 }
 
+body .align {
+    display: flex;
+    flex-direction: column;
+}
+
 body .contact select {
     padding: 0 20px;
     font-size: 20px;
@@ -99,7 +115,6 @@ body .contact select {
 
 body .contact div {
     display: inline-flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 15px;
@@ -117,6 +132,25 @@ body form button {
     border: none;
     border-radius: 23px;
     background-color: #1CD1B0;
+    cursor: pointer;
+}
+
+form button:active {
+    color: #fff;
+    background-color: #000;
+    border: 2px solid #1CD1B0;
+}
+
+body button.limpar {
+    color: #fff;
+    background-color: #888;
+    cursor: pointer;
+}
+
+form button.limpar:active {
+    color: #fff;
+    background-color: #000;
+    border: 2px solid #1CD1B0;
 }
 
 body button.limpar {

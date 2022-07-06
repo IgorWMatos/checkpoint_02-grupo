@@ -28,15 +28,20 @@
     background-image: url("https://ovicio.com.br/wp-content/uploads/iron-man-3-2.jpg");   
     background-size: cover;
     background-position: center;
-    /* background-position: 5px; */
 }
 .body5 {
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGKBis5zL1Hefk1_qUhDZflJ_2o1cfgooLPA&usqp=CAU");
+    background-image: url("https://assets.b9.com.br/wp-content/uploads/2018/04/0011-1280x720.jpg");
     object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .body6 {
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsHj4c4nVLNLuztq15BR5u8PjoTZgtjfzCVw&usqp=CAU");
+    background-image: url("https://t.ctcdn.com.br/f-bRzHv8EN69BaWWiBYuFONaflg=/1280x720/smart/filters:format(webp)/i441817.jpeg");
     object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 

@@ -13,28 +13,36 @@
 html {
     scroll-behavior: smooth;
 }
+body{
+    background-color: #000;
+}
 
 header {
     position: sticky;
-    top: 0%;
-    height: 80px;
+    top: 0;
+    bottom: 100px;
+    height: 100px;
     display: flex;
-    flex-direction: row;
+    align-items: center;
     justify-content: space-between;
-    color: white;
-    background-color: #000;
-    z-index: 2;
+    color: #ffffff;
+    background-color: #000000;
+    z-index: 1;
 }
-
-.header1 {
-    width: 50%;
-    height: 100%;
+.header-button{
+    display: none;
 }
-
-.header2 {
-    width: 50%;
-    height: 100%;
-}
+@media (max-width: 860px) {
+    .nav ul{
+    display: none;
+    }
+    .header-button{
+        display: block;
+    }
+    header h1{
+        flex-direction: row;
+    }
+ }
 
 header img {
     width: 60px;
@@ -49,6 +57,8 @@ header .logo {
 header .nav {
     display: flex;
     align-items: center;
+    overflow: hidden;
+
 }
 
 header ul {
@@ -56,13 +66,18 @@ header ul {
     align-items: center;
     margin-right: 40px;
     gap: 15px;
-}
+} 
 
 header a {
-    color: white;
+    align-items: center;
+    color: #ffffff;
     font-size: 18px;
     font-weight: 500;
     text-decoration: none;
+}
+header .header-button{
+    background-color: #000;
+    border: none;
 }
 
 main {
@@ -79,8 +94,6 @@ main .banner {
     background-image: url(https://wallpapercave.com/wp/wp2588505.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-    padding-top: 80px;
 }
 
 .main-section-cards {
@@ -88,29 +101,58 @@ main .banner {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    margin-top: 50px;
-    gap: 30px;
-    margin-bottom: 30px;
+    margin-top: 70px;
+    gap: 50px;
+    padding-bottom: 30px;
+}
+@media (max-width: 769px) {
+    .main-section-cards{
+        margin: 30px 30px 0px 30px;
+        
+    }
+    
 }
 
 .main-section-cards .cards {
-    height: 840px;
-    width: 400px;
-    overflow: hidden;
+    height: 750px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F3F3F3;
+    border-radius: 16px 16px 0 0;
+    transition: 0.3s ease-in-out;
+    padding: 0;
 
 }
+.cards:hover {
+    box-shadow: 0px 0px 50px #ec1d24;
+    transition: 0.3s ease-in-out;
+}
+
+.cards h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    padding: 70px 0 10px 0px;
+}
+
+.cards p {
+    padding: 0 15px 10px;
+    text-align: center;
+}
+
 
 .button-div {
 
     height: 100%;
-    padding-bottom: 40px;
     display: flex;
     align-items: flex-end;
 }
 
-.cards button {
+.cards .button-style{
     width: 170px;
     height: 50px;
+    margin-bottom: 30px;
     border: none;
     font-size: 16px;
     color: #F3F3F3;
@@ -121,36 +163,9 @@ main .banner {
 
 }
 
-.cards button:hover {
+.cards .button-style:hover {
     transform: scale(1.05);
 
-}
-
-.cards-shadow {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #F3F3F3;
-    margin: 20px 20px;
-    border-radius: 16px 16px 0 0;
-    transition: 0.3s ease-in-out;
-}
-
-.cards-shadow:hover {
-    box-shadow: 0px 0px 50px #ec1d24;
-    transition: 0.3s ease-in-out;
-}
-
-.cards-shadow h1 {
-    font-family: 'Roboto', sans-serif;
-    font-size: 30px;
-    padding: 70px 0 10px 0px;
-}
-
-.cards-shadow p {
-    padding: 0 15px 10px;
-    text-align: center;
 }
 
 img.favorite {
@@ -170,19 +185,12 @@ img.favorite {
 
 .icons {
     position: absolute;
-    top: 125px;
+    top: 130px;
     width: 125px;
     height: 125px;
     object-fit: cover;
     border-radius: 50%;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
-.plus-info {
-    display: flex;
-    align-self: flex-end;
-    padding: 20px;
-    z-index: 1;
 }
 
 footer {
@@ -226,7 +234,6 @@ footer #giovanna {
 }
 
 footer .info h1 {
-    display: flex;
-    justify-content: center;
+    text-align: center;
     font-size: 16px;
 }

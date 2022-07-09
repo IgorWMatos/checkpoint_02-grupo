@@ -50,11 +50,6 @@ header a {
     font-weight: 500;
     text-decoration: none;
 }
-<<<<<<< HEAD
-main{
-    padding: 30px;
-}
-=======
 
 main {
     align-items: center;
@@ -65,7 +60,6 @@ main {
     background-size: cover;
 }
 
->>>>>>> 713e4d3a7a241cebdc7835984c372e00bdaffdc2
 .login {
     height: 75.1vh;
     display: flex;
@@ -97,13 +91,8 @@ main {
 }
 
 .login input {
-<<<<<<< HEAD
-    width: 620px;
-    height: 100%;
-=======
     width: 420px;
     height: 60px;
->>>>>>> 713e4d3a7a241cebdc7835984c372e00bdaffdc2
     padding: 0 20px;
     font-size: 20px;
     font-family: 'Karla', sans-serif;

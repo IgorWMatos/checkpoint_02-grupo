@@ -129,17 +129,20 @@ img.card-icon {
     margin: 40px;
     
 }
-.referencias{
+.referencias ul{
     display: flex;
     gap: 20px;
-    margin-bottom: 20px;
+    padding: 40px 80px 20px 80px;
     list-style: none;
 }
-    
-
-.referencias button {
+.referencias ul {
+    display: flex;
+    width: 100%;
+ }
+ 
+.referencias ul button {
     height: 50px;
-    color: #fff;
+    color: rgb(255, 255, 255);
     font-size: 20px;
     background-color: #2C0187;
     border: none;

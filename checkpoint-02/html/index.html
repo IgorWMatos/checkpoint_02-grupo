@@ -13,14 +13,60 @@
 
 <body>
 
-    <header class="animate__animated animate__fadeInDown">
+    <header class="animate__animated">
         <div class="logo">
             <img src="https://fortnite-api.com/images/cosmetics/br/eid_superherobackflip/icon.png" alt="">
             <h1>Hall dos Herois</h1>
         </div>
 
         <div class="nav">
+            
             <nav>
+                <!-- Button trigger modal -->   
+                <button  type="button" class=" header-button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                 <img class=""  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAUVBMVEX///8AAADl5eX7+/s6Ojp0dHT29vakpKTR0dHs7Oy2trZKSkrMzMwqKipBQUHo6OhaWlobGxt+fn6Xl5diYmJRUVG+vr6wsLDY2Nh3d3ff398TfhjMAAABuklEQVR4nO3d61LCMBAG0AoCisrFu77/gyqg/7fpjHG35zzBflOStMxOdhgAAAAAAAAAAAAA/sbtIovblnjbu6tM7rYj890/9C55tIf7MQHfepfb5G3EE+xda6PwU1wfe5fa6LgOJtz0rrTZJphw17vQZrvgj7R3nRPEfqbvvcuc4D2U8KZ3mRPchBLue5c5wT6UcNm7zAmWoYTDqnedzVaxgIkXYmwZfvvoXWmjj2jArGd+8Lw/Wx56V9vgENxmfmyzvX0fx34Cf+83m8dVFo+b8B4DAAAAAAAAAPxXyyya0i2ennfXWeyenxYj863zde+tom3sZ5+9y23yGQ+YtYc21j978tK71EYv0YCvvStt9hpMmLEx8eIQC1i/zzvnRnoR207ztnlHG73rP8P667D+XjqD87D+O80M3kuTbqcjvi1m8H041P/Gv+j990tYUzoAAAAAAAAA4B+pfvdl9ftL699BW/4e4fJ3Qedt9I7uN/m69n4F72Sv3+edtX/2JNZDm3cZRhdi/Rkl9efMJD3vT6Jnfv15T/VndtWfuzaD2XkzmH841J9heVZ8DikAAAAAAAAAAABAgy9QnECE9sBfRAAAAABJRU5ErkJggg==" alt="">
+               </button>
+               
+               <!-- Modal -->
+               <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                 <div class="modal-dialog">
+                   <div class="modal-content">
+                     <div class="modal-header">
+                       <h5 class="modal-title" id="exampleModalLabel">Menu</h5>
+                       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                     </div>
+                     <div class="modal-body body-modal">
+                         <nav>
+                             <ul>
+                                 <li>
+                                     <a href="./index.html#home">Home</a>
+                                 </li>
+                                 <li>
+                                     <a href="./index.html#herois">Herois</a>
+                                 </li>
+                                 <!-- <li>
+                                     <a href="./login.html">Login</a>
+                                 </li>
+                                 <li>
+                                     <a href="./registro.html">Registrar</a>
+                                 </li>
+             
+                                 <li>
+                                     <a href="./contato.html">Contato</a>
+                                 </li> -->
+                             </ul>
+             
+                         </nav>
+                       
+                     
+                     </div>
+                     <div class="modal-footer">
+                       <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                       <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                     </div>
+                   </div>
+                 </div>
+               </div>
                 <ul>
                     <li>
                         <a href="./index.html#home">Home</a>
@@ -40,36 +86,13 @@
                     </li>
                 </ul>
 
-           <!-- Button trigger modal -->
-           <button type="button" class="btn btn-primary header-button" data-bs-toggle="modal" data-bs-target="#exampleModal">
-            Launch demo modal
-          </button>
-          
-          <!-- Modal -->
-          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                  ...
-                </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                  <button type="button" class="btn btn-primary">Save changes</button>
-                </div>
-              </div>
-            </div>
-          </div>
             </nav>
             
         </div>
         
     </header>
 
-    <main>
+    <main class=".container">
 
         <section class="banner" id="home">
             

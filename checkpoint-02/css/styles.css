@@ -18,7 +18,7 @@ body{
 }
 
 header {
-    position: sticky;
+    /* position: sticky; */
     top: 0;
     /* margin-bottom: 100px; */
     height: 100px;
@@ -27,11 +27,19 @@ header {
     justify-content: space-between;
     color: #ffffff;
     background-color: #000000;
-    z-index: 1;
+    z-index: 2;
 }
+
 .header-button{
     display: none;
+    padding-right: 30px;
+    background-color: #000000;
+    border: none;
+    height: 40px;
+    position: static;
+
 }
+
 @media (max-width: 860px) {
     .nav ul{
     display: none;
@@ -45,7 +53,7 @@ header {
  }
 
 header img {
-    width: 60px;
+    width: 50px;
 }
 
 header .logo {
@@ -57,7 +65,6 @@ header .logo {
 header .nav {
     display: flex;
     align-items: center;
-    overflow: hidden;
 
 }
 
@@ -75,11 +82,6 @@ header a {
     font-weight: 500;
     text-decoration: none;
 }
-/* header .header-button{
-    background-color: rgb(255, 0, 0);
-    border: none;
-    height: 40px;
-} */
 
 main {
     align-items: center;
@@ -93,8 +95,9 @@ main {
 main .banner {
     height: 100vh;
     background-image: url(https://wallpapercave.com/wp/wp2588505.jpg);
-    /* background-position: center; */
+    background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
     background-attachment: fixed;
 }
 
@@ -106,21 +109,24 @@ main .banner {
     margin-top: 70px;
     gap: 50px;
     padding-bottom: 30px;
+   
 }
-@media (max-width: 769px) {
+@media (max-width: 900px) {
     .main-section-cards{
         margin: 30px 30px 0px 30px;    
     }
-    /* .main-section-cards .cards{
-        height: fit-content;
+    .main-section-cards .cards{
+        /* height: 1000px; */
+        flex-direction: column;
     }
-     */
+    
 }
 
 .main-section-cards .cards {
-    height: 750px;
+    height: 800px;
     /* height: 100%; */
     position: relative;
+    object-fit: cover;
     display: flex;
     flex-direction: column;
     align-items: center;

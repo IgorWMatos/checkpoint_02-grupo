@@ -197,3 +197,47 @@ footer .info {
     display: flex;
     justify-content: center;
 }
+
+/* Header reponsivo */
+@media (max-width: 600px) {
+    header {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 5px 0;
+    }
+
+    header ul {
+        margin: 0;
+    }
+
+    .align h1{
+        font-size: 48px;
+        padding-left: 13px;
+    }
+
+    input {
+        max-width: 300px;
+    }
+
+    select {
+        max-width: 300px;
+    }
+
+    textarea {
+        max-width: 300px;
+    }
+
+    button.limpar {
+        font-size: 18px;
+        height: 45px;
+        max-width: 150px;
+    }
+
+    button.submit {
+        font-size: 18px;
+        height: 45px;
+        max-width: 150px;
+    }
+}

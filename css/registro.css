@@ -55,6 +55,12 @@ header a {
 body main {
     left: 35%;
     top: 30%;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../imgs/purple-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 body .register {
@@ -66,13 +72,17 @@ body .register {
     gap: 10px;
 }
 
+body .align {
+    display: flex;
+    flex-direction: column;
+}
+
 body .register h1 {
     font-size: 72px;
     font-weight: 700;
     font-family: 'Inter', sans-serif;
     color: #333333;
-    display: flex;
-    align-self: flex-start;
+    padding: 10px;
 }
 
 body .register form {
@@ -97,16 +107,14 @@ body .register select {
     background-color: #fff;
 }
 
-body .register div {
-    display: inline-flex;
-    flex-direction: row;
+body .buttons {
+    display: flex;
     justify-content: center;
-    align-items: center;
-    gap: 15px;
+    gap: 10px;
 }
 
 body form button {
-    display: inline-flex;
+    display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
@@ -122,7 +130,8 @@ body form button {
 
 form button:active {
     color: #fff;
-    background-color: #002e49;
+    background-color: #000;
+    border: 2px solid #1CD1B0;
 }
 
 body button.limpar {
@@ -133,9 +142,9 @@ body button.limpar {
 
 form button.limpar:active {
     color: #fff;
-    background-color: #002e49;
+    background-color: #000;
+    border: 2px solid #1CD1B0;
 }
-
 
 footer {
     height: 100%;
@@ -150,7 +159,12 @@ footer {
 footer .credits {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
+}
+
+footer .name h1 {
+    font-size: 18px;
+    font-weight: 400;
 }
 
 footer .name h2 {
@@ -165,14 +179,51 @@ footer .name img {
 }
 
 footer #igor {
-    text-align: center;
-}
-
-footer #giovanna {
     text-align: end;
 }
 
-footer .info {
-    display: flex;
-    justify-content: center;
+footer .info h1 {
+    text-align: center;
+    font-size: 16px;
+}
+
+
+/* Header reponsivo */
+@media (max-width: 600px) {
+    header {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 5px 0;
+    }
+
+    header ul {
+        margin: 0;
+    }
+
+    .align h1{
+        font-size: 48px;
+        padding-left: 13px;
+    }
+
+    input {
+        max-width: 300px;
+    }
+
+    select {
+        max-width: 300px;
+    }
+
+    button.limpar {
+        font-size: 18px;
+        height: 45px;
+        max-width: 150px;
+    }
+
+    button.submit {
+        font-size: 18px;
+        height: 45px;
+        max-width: 150px;
+    }
 }

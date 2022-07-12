@@ -138,10 +138,15 @@ img.card-icon {
 
 }
 
+nav {
+    display: flex;
+    flex-direction: row;
+}
+
 .referencias ul {
     display: flex;
     gap: 20px;
-    padding: 40px 80px 20px 80px;
+    padding: 40px 20px 20px;
     list-style: none;
 }
 

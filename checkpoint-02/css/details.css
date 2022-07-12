@@ -9,10 +9,12 @@
     font-weight: 400;
     list-style: none;
 }
+
 .body1 {
     background-image: url("https://s3-alpha-sig.figma.com/img/5055/b6a0/4287309c581511998d161daaf1b42117?Expires=1656892800&Signature=MU2-zG6j3zT2j1M0SxKj5kqvAKyrJZ0301DYB0NgGVMbUIcPzxVoJS9L434pbYuiuW8FfsMzDhUsExvSfmef7NpM8Kjqzl6IGQ3v8fjOqQwK3YqdLkzxiivqZvuCIEu01IniYlJXD8u6ClsJar0B5ak3UvME8AOW1IsbDLnMlJ0tK~h6T8WmPEs~74Aq6R0GNFSl2351nXyzCBYmOEbhL6bowP2NWzdLQ2vtKAxmWTiNw9JVAK-393-sioFpKP1A0y6S-s3jj-lIzaQdqYJwkfC3UUj0lI905i2J6PW5TM3Et0Nl9B1O70QDA7hO6euQ05FopZ1eu-Z7Z-wHeFAopw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
     object-fit: cover;
 }
+
 .body2 {
     background-image: url("http://jucirqueira.com/wp-content/uploads/2016/05/06.jpg");
     object-fit: cover;
@@ -24,11 +26,13 @@
     background-image: url("https://steamcdn-a.akamaihd.net/steamcommunity/public/images/items/200260/45ad5cbb50a2fa014030de72f855036d746c0e0e.jpg");
     object-fit: cover;
 }
+
 .body4 {
-    background-image: url("https://ovicio.com.br/wp-content/uploads/iron-man-3-2.jpg");   
+    background-image: url("https://ovicio.com.br/wp-content/uploads/iron-man-3-2.jpg");
     background-size: cover;
     background-position: center;
 }
+
 .body5 {
     background-image: url("https://assets.b9.com.br/wp-content/uploads/2018/04/0011-1280x720.jpg");
     object-fit: cover;
@@ -36,6 +40,7 @@
     background-position: center;
     background-repeat: no-repeat;
 }
+
 .body6 {
     background-image: url("https://t.ctcdn.com.br/f-bRzHv8EN69BaWWiBYuFONaflg=/1280x720/smart/filters:format(webp)/i441817.jpeg");
     object-fit: cover;
@@ -105,10 +110,11 @@ main {
     align-items: center;
     background-color: #fff;
     border-radius: 45px;
-    
+
 }
-.card-info h1{
-    
+
+.card-info h1 {
+
     margin-top: 50px;
     margin-bottom: 20px;
 }
@@ -122,51 +128,64 @@ img.card-icon {
     height: 130px;
     border-radius: 50%;
 }
-.section-card-info{
 
+.section-card-info {
+
+    overflow: hidden;
     height: 100%;
-    text-align: center; 
+    text-align: center;
     margin: 40px;
-    
+
 }
-.referencias ul{
+
+.referencias ul {
     display: flex;
     gap: 20px;
     padding: 40px 80px 20px 80px;
     list-style: none;
 }
+
 .referencias ul {
     display: flex;
     width: 100%;
- }
- 
+}
+
 .referencias ul button {
-    height: 50px;
+
     color: rgb(255, 255, 255);
     font-size: 20px;
     background-color: #2C0187;
     border: none;
-    border-radius: 12px;
     cursor: pointer;
+    text-align: center;
+    width: 130px;
+    border-radius: 12px;
     padding: 12px;
-    transition: 0.05;
-}
-.referencias button:hover{
-    transform: scale(1.04);
+    transition: 0.05s ease-in-out;
 }
 
-button:active {
-    background-color: #4700e0;
+.referencias button:hover {
+    transition: 0.05s ease-in-out;
+    background-color: #3c00be;
+    transform: scale(1.05);
 }
-.videos{
+
+.referencias button:active {
+    background-color: #1f0061;
+    border: 2px solid #14003f;
+    transform: scale(1);
+}
+
+.videos {
     margin-top: 100px;
     margin-bottom: 100px;
 }
-.videos iframe{
+
+.videos iframe {
     width: 100%;
     width: 560px;
     height: 315px;
-    
+
 }
 
 footer {
@@ -182,7 +201,12 @@ footer {
 footer .credits {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
+}
+
+footer .name h1 {
+    font-size: 18px;
+    font-weight: 400;
 }
 
 footer .name h2 {
@@ -197,14 +221,10 @@ footer .name img {
 }
 
 footer #igor {
-    text-align: center;
-}
-
-footer #giovanna {
     text-align: end;
 }
 
-footer .info {
-    display: flex;
-    justify-content: center;
+footer .info h1 {
+    text-align: center;
+    font-size: 16px;
 }

@@ -103,7 +103,14 @@ header a {
     font-size: 18px;
     font-weight: 500;
     text-decoration: none;
+    opacity: .5;
 }
+header a:hover{
+
+    opacity: 1;
+}
+
+
 
 
 main {
@@ -115,7 +122,8 @@ main {
 
 .card-info {
     position: relative;
-    width: 546px;
+    width: 100%;
+    max-width: 546px;
     margin-top: 100px;
     height: fit-content;
     display: flex;
@@ -181,6 +189,7 @@ nav {
     border-radius: 12px;
     padding: 12px;
     transition: 0.05s ease-in-out;
+    width: fit-content;
 }
 
 .referencias button:hover {
@@ -198,11 +207,14 @@ nav {
 .videos {
     margin-top: 100px;
     margin-bottom: 100px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
 }
 
 .videos iframe {
     width: 100%;
-    width: 560px;
+    max-width: 560px;
     height: 315px;
 
 }
@@ -246,4 +258,32 @@ footer #igor {
 footer .info h1 {
     text-align: center;
     font-size: 16px;
+}
+
+/* Header reponsivo */
+@media (max-width: 870px) {
+    header ul{
+        display: none;
+justify-content: center;
+
+    }
+    .image-menu{
+        display: block;
+        padding-bottom: 20px;
+    }
+
+    input {
+        max-width: 300px;
+    }
+
+    .cards h1 {
+        font-family: 'Roboto', sans-serif;
+        font-size: 30px;
+        padding: 100px 0 10px 0px;
+    }
+    main{
+
+        margin: 20px;
+    }
+    
 }

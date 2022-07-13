@@ -63,12 +63,19 @@ header a {
     font-size: 18px;
     font-weight: 500;
     text-decoration: none;
+    opacity: .5;
 }
+header a:hover{
+
+    opacity: 1;
+}
+
+
 
 
 body main {
     left: 35%;
-    top: 30%;
+    padding-top: 80px;
     align-items: center;
     justify-content: center;
     background-image: url(../imgs/purple-bg.jpg);
@@ -133,6 +140,7 @@ body .contact div {
     justify-content: center;
     align-items: center;
     gap: 15px;
+    margin-bottom: 40px;
 }
 
 body form button {
@@ -215,27 +223,27 @@ footer .info h1 {
 }
 
 
+
 /* Header reponsivo */
-@media (max-width: 600px) {
-    header {
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 5px 0;
-    }
+@media (max-width: 870px) {
+    header ul{
+        display: none;
+justify-content: center;
 
-    header ul {
-        margin: 0;
     }
-
-    .align h1{
-        font-size: 48px;
-        padding-left: 13px;
+    .image-menu{
+        display: block;
+        padding-bottom: 20px;
     }
 
     input {
         max-width: 300px;
+    }
+
+    .cards h1 {
+        font-family: 'Roboto', sans-serif;
+        font-size: 30px;
+        padding: 100px 0 10px 0px;
     }
 
     select {
@@ -257,4 +265,4 @@ footer .info h1 {
         height: 45px;
         max-width: 150px;
     }
-}
+ }
